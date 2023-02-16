@@ -1,0 +1,84 @@
+$primary-color-green: #ff5aaa;//#E83890;//#2DCE2A;
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    color: $primary-color-green;
+    .skillset{
+        width: 250px;
+        min-height: 300px;
+        height: auto;
+        background: #E1122D;
+        background: rgb(226,19,93);
+        background: radial-gradient(circle, rgba(226,19,93,1) 0%, rgba(225,18,45,1) 100%);
+        border: 1px solid red;
+        border-radius: 20px;
+        margin: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        @media (min-width:1200px) {
+            width: 300px;
+            min-height: 400px;
+        }
+        @media (max-width:992px) {
+            width: 23vw;
+            min-height: 300px;
+            margin: 0;
+            border-radius: 10px;
+        }
+        @media (max-width:576px) {
+            width: 90vw;
+            margin: 10px;
+            min-height: 25vh;
+        }
+        p{
+            color: white;
+            font-size: large;
+        }
+        transition: all 0.4s ease-in;
+        &:hover{
+            scale: 1.04;
+            cursor: pointer;
+        }
+    }
+    .skillset-big{
+        width: 300px;
+        min-height: 400px;
+        height: auto;
+        @media (min-width:1200px) {
+            width: 350px;
+            min-height: 500px;
+        }
+        @media (max-width:992px) {
+            width: 34vw;
+            min-height: 350px;
+        }
+        @media (max-width:576px) {
+            width: 90vw;
+            min-height: 25vh;
+            margin: 10px;
+        }
+    }
+}
+.skills.dark{
+    .skillset{
+        p{
+            color: #ff7aba;
+            color: #ff8fc5;
+            color: #ffa8d2;
+            color: #2c0418;
+        }
+    }    
+}
+.skills.mixed{
+    .skillset{
+        p{
+            color: #2c0418;
+            color: #ffa8d2;
+        }
+    }    
+}
