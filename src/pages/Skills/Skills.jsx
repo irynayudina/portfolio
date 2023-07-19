@@ -19,24 +19,25 @@ const Skills = (props) => {
           <div className="skillset skillset-big">
             <h1 className="skillset-name">Languages and libraries</h1>
             <p>HTML, CSS, JavaScript</p>
-            <p>Bootstrap</p>
-            <p>ReactJS</p>
-            <p>Framer Motion</p>
-            <p>NodeJS (with express)</p>
+            <p>Bootstrap, SASS, MaterialUI, Framer Motion</p>
+            <p>ReactJS, Redux</p>
+            <p>Mocha, Chai</p>
+            <p>NodeJS, Express, MongoDB, SQL</p>
+            <p>Socket.IO, Nodemailer, JWT</p>
             <p>C++, Raylib (graphics), SFML</p>
           </div>
           <div className="skillset">
             <h1 className="skillset-name">Tools</h1>
             <p>VS Code, Visual Studio</p>
             <p>Git & GitHub</p>
-            <p>MongoDB, MySQL</p>
-            <p>Netlify</p>
+            <p>MongoDB Atlas, MySQL</p>
+            <p>Netlify, Railway</p>
             <p>Postman</p>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Skills

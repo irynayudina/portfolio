@@ -11,7 +11,7 @@ import { Link, Element, Events, animateScroll as scroll } from "react-scroll";
 import Burger from './shared/Burger/Burger';
 import { useState } from 'react';
 // import Pdf from './assets/Resume.pdf';
-import Pdf from './assets/Resume1.pdf';
+import Pdf from './assets/Iryna_Yudina_Resume.pdf';
 function App() {
   const [activeBurger, setActiveBurger] = useState(false)
   const hideDropdown = () => {

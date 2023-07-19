@@ -43,8 +43,8 @@ const Projects = (props) => {
                   ))}</div>
                   <p className="description">{item.description}</p>
                   <div className="buttons">
-                    <a href={item.githubLink} target="_blank"><div className="github-btn btn">GitHub</div></a>
-                    <a href={item.hostlink} target="_blank"><div className="live-btn btn">Live</div></a>
+                    {item.githubLink ? <a href={item.githubLink} target="_blank"><div className="github-btn btn">GitHub</div></a> : ""}
+                    {item.hostlink ? <a href={item.hostlink} target="_blank"><div className="live-btn btn">Live</div></a> : ""}
                   </div>
                 </div>
               </div>

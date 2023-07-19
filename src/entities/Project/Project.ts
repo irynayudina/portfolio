@@ -13,38 +13,38 @@ export const ProjectWeb = [
     description: 'App for tracking daily/weekly activites and track them on graphics. My first project using Bootstrap. Only front-end part is implemented.',
     image: './images/productivity.gif',
     hostlink: '',
-    githubLink:''
+    githubLink:'https://github.com/irynayudina/productivity'
   },
   {
-    id: 3, name: 'Post Interface',
-    technologies: ['React'],
-    description: 'Laboratory project for basics of UI. My first app made with React. Only frontend is implemented, user functions are imitated with JS, no real database and backend',
+    id: 3, name: 'Post Interface (frontend)',
+    technologies: ['ReactJS'],
+    description: 'For basics of UI. My first app made with React. Only frontend is implemented, user functions are imitated with JS, no real database and backend',
     image: './images/cpp.png',
     hostlink: '',
-    githubLink:''
+    githubLink:'https://github.com/irynayudina/postinterface'
   }, 
   {
     id: 4, name: 'Online Store (frontend)',
     technologies: ['HTML', 'CSS', 'JS'],
-    description: 'Laboratory project, the first web-site I made. A grocery store with differernt products and categories, userpage and a cart. Only frontend is implemented',
+    description: 'The first web-site I made. A grocery store with differernt products and categories, userpage and a cart. Only frontend is implemented',
     image: './images/organic.gif',
     hostlink: '',
-    githubLink:''
+    githubLink:'https://github.com/irynayudina/webstore'
   },
   {
-    id: 5, name: 'Graduate Project (WIP)',
-    technologies: ['ReactJS', 'NodeJS', 'MongoDB', 'Express', 'NodeMailer', 'Mutler', 'JWT', 'OAUTH', 'code verify'],
+    id: 5, name: 'Code-Network',
+    technologies: ['ReactJS', 'Redux', 'NodeJS', 'MongoDB', 'Express', 'Socket.IO', 'JWT', 'CodeMirror', 'JDoodle', 'Quill', ],
     description: 'My bachelor graduate project. Fully functional, safe, stable and reliable. Online code editor with elements of social network and collaborations on files.',
-    image: './images/cpp.png',
-    hostlink: '',
-    githubLink:''
+    image: './images/code-network.png',
+    hostlink: 'https://create-react-app-site-production-f83f.up.railway.app/',
+    githubLink:'https://github.com/irynayudina/CodeEditorFrontend'
   },
 ];
 export const ProjectCpp = [
   {
     id: 1, name: 'SFML C++ Game',
     technologies: ['SFML', 'C++'],
-    description: 'My OOP course work. First graphical application. Using OOP and different approaches to make a set of complex operations on objects, such as aggregation copying deletion etc ',
+    description: 'First graphical application. Using OOP and different approaches to make a set of complex operations on objects, such as aggregation copying deletion etc ',
     image: './images/cpp.png',
     hostlink: '',
     githubLink:''
@@ -52,7 +52,7 @@ export const ProjectCpp = [
   {    
     id: 2, name: 'Raylib C++ Game',
     technologies: ['Raylib', 'C++'],
-    description: 'Computer Graphics lab. Custom graphics application to draw a scene with primitives(implemented by me), changing color, moving, rotating, deleting',
+    description: 'Custom graphics application to draw a scene with primitives(implemented by me), changing color, moving, rotating, deleting',
     image: './images/cpp.png',
     hostlink: '',
     githubLink:''
@@ -60,7 +60,7 @@ export const ProjectCpp = [
   {    
     id: 3, name: 'Raylib C++ transitions 3d',
     technologies: ['Raylib', 'C++'],
-    description: 'Computer Graphics lab. Implementing scaling, moving, reflection, and rotation of an object in 3d dimention and rendering it to the 2d screen',
+    description: 'Implementing scaling, moving, reflection, and rotation of an object in 3d dimention and rendering it to the 2d screen',
     image: './images/cpp.png',
     hostlink: '',
     githubLink:''
@@ -68,7 +68,7 @@ export const ProjectCpp = [
   {    
     id: 4, name: 'Raylib C++ animation 3d',
     technologies: ['Raylib', 'C++'],
-    description: 'Computer Graphics lab. Implementing animation of a 3d object along the movement trajectory, deleting parts that are not visible in 2d view using Roberts method',
+    description: 'Implementing animation of a 3d object along the movement trajectory, deleting parts that are not visible in 2d view using Roberts method',
     image: './images/cpp.png',
     hostlink: '',
     githubLink:''
@@ -76,7 +76,7 @@ export const ProjectCpp = [
   {    
     id: 5, name: 'Blender Scene',
     technologies: ['Blender'],
-    description: 'My Computer Graphics course work. Making a scene in blender with texturing animation and rendering',
+    description: 'Making a scene in blender with texturing animation and rendering',
     image: './images/blenderscene.png',
     hostlink: '',
     githubLink:''
